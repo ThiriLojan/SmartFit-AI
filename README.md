@@ -1,6 +1,6 @@
   # **SmartFit AI — Full-Stack Edge AI Fitness Trainer**
 
-  [![Tech Stack](https://img.shields.io/badge/⚡_Edge_AI-ff7a00?style=for-the-badge)](https://github.com/ThiriLojan/SmartFit-AI)
+  [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-smartfit--ai--v1.vercel.app-ff7a00?style=for-the-badge&logo=vercel)](https://smartfit-ai-v1.vercel.app)
 
 
   ## **About**
