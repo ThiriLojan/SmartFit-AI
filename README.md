@@ -10,14 +10,14 @@
 
   ## **Overview**
 
-  This application is built using **React 19** and **Vite** for the high-performance frontend architecture, paired with a custom **Python (Flask & OpenCV)** server for backend video processing. The AI tracking features leverage **Google MediaPipe Pose Detection** (Lite 3D neural model) and custom vector trigonometry algorithms to process 33 3D body keypoints locally at over 60 frames per second. To ensure butter-smooth video playback without browser buffer lag, the backend utilizes optimized MJPEG HTTP streaming with custom resolution and compression scaling. The frontend is styled using vanilla CSS to maintain an ultra-lightweight, responsive, and state-of-the-art design system.
+  This application is built using **React 19** and **Vite** for the high-performance frontend architecture, paired with a custom **Python (Flask & OpenCV)** server for backend video processing. The AI tracking features leverage **MediaPipe Pose Detection** (Lite 3D neural model) and custom vector trigonometry algorithms to process 33 3D body keypoints locally at over 60 frames per second. To ensure butter-smooth video playback without browser buffer lag, the backend utilizes optimized MJPEG HTTP streaming with custom resolution and compression scaling. The frontend is styled using vanilla CSS to maintain an ultra-lightweight, responsive, and state-of-the-art design system.
 
 
   ## **Platform Used**
 
   - **Frontend Framework:** React 19, Vite, JavaScript  
   - **Backend Server:** Python 3, Flask, CORS, Werkzeug  
-  - **Computer Vision & AI:** Google MediaPipe Pose (3D Keypoints), OpenCV (MJPEG Streaming & Image Processing)  
+  - **Computer Vision & AI:** MediaPipe Pose (3D Keypoints), OpenCV (MJPEG Streaming & Image Processing)  
   - **Deep Learning Architecture:** Custom 1D-CNN + LSTM Sequence Classification  
   - **Styling & UI:** Vanilla CSS, Glassmorphism Design System, CSS3 Micro-Animations   
 
