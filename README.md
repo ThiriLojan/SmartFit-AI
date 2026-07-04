@@ -49,35 +49,47 @@
 
   ## **Usage**
 
-  - **Local Setup Instructions:**
-    1. Clone the repository to your local machine:
-      ```bash
-      git clone https://github.com/ThiriLojan/SmartFit-AI.git
-      cd SmartFit-AI
-      ```
-    2. **Start the Backend AI Server (Python & Computer Vision):**
-      ```bash
-      cd backend
-      python -m venv venv
-      
-      # Windows:
-      venv\Scripts\activate
-      # macOS/Linux:
-      source venv/bin/activate
-      
-      pip install flask flask-cors opencv-python mediapipe numpy
-      python main.py
-      ```
-      *The computer vision server will start running on `http://localhost:5000`.*
-    3. **Start the Frontend Web App (React & Vite):**
-      Open a new terminal window:
-      ```bash
-      cd ../frontend
-      npm install
-      npm run dev
-      ```
-    4. **Launch the Platform:**
-      Open `http://localhost:5173` in your web browser and allow webcam access to begin your AI-powered workout!
+  ### **Local Setup Instructions**
+
+**1. Clone the repository to your local machine:**
+```bash
+git clone https://github.com/ThiriLojan/SmartFit-AI.git
+cd SmartFit-AI
+```
+
+**2. Start the Backend AI Server (Python & Computer Vision):**
+```bash
+cd backend
+python -m venv venv
+
+# Windows:
+venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+
+pip install flask flask-cors opencv-python mediapipe numpy
+python main.py
+```
+*The computer vision server will start running on `http://localhost:5000`.*
+
+**3. Start the Frontend Web App (React & Vite):**
+Open a new terminal window:
+```bash
+cd ../frontend
+npm install
+npm run dev
+```
+
+**4. Launch the Platform:**
+Open `http://localhost:5173` in your web browser and allow webcam access to begin your AI-powered workout!
+
+---
+
+### **🐳 Docker & Cloud Deployment**
+This application is fully containerized and optimized for cloud deployment on **Hugging Face Spaces** (Docker SDK) and **Vercel**. 
+
+> [!NOTE]
+> For advanced containerization setups, Linux C++ OpenCV system dependencies (`libgl1`, `libsm6`), or instructions on switching API URLs between cloud and localhost, please read our detailed **[Backend README](backend/README.md)** and **[Frontend README](frontend/README.md)**!
 
 
   ## **📸 Platform Gallery**
