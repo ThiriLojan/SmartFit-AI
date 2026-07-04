@@ -1,6 +1,6 @@
   # **SmartFit AI — Full-Stack Edge AI Fitness Trainer**
 
-  [![Tech Stack](https://img.shields.io/badge/⚡_Edge_AI-MediaPipe_%2F_OpenCV_%2F_React-ff7a00?style=for-the-badge)](https://github.com/ThiriLojan/SmartFit-AI)
+  [![Tech Stack](https://img.shields.io/badge/⚡_Edge_AI-ff7a00?style=for-the-badge)](https://github.com/ThiriLojan/SmartFit-AI)
 
 
   ## **About**
@@ -82,14 +82,17 @@
 
   ## **📸 Platform Gallery**
 
-  | **Home Page Landing** | **Live Playground Dashboard** |
-  |:---:|:---:|
-  | ![Home Page](screenshots/home_page.png) | ![Live Playground](screenshots/live_playground.png) |
+  ### **✨ Home Page Landing**
+  ![Home Page](screenshots/home_page.png)
 
-  | **Video Analysis Studio** | **AI Neural Net Showcase** |
-  |:---:|:---:|
-  | ![Video Studio](screenshots/upload_video.png) | ![Neural Net](screenshots/ai_neural_net.png) |
+  ---
 
-  | **System Architecture** | **Biomechanical Pipeline** |
+  ### **🚀 Interactive Features & Architecture**
+  
+  | **Live Playground Dashboard** | **Video Analysis Studio** |
   |:---:|:---:|
-  | ![Architecture](screenshots/architecture.png) | ![Pipeline](screenshots/architecture.png) |
+  | ![Live Playground](screenshots/live_playground.png) | ![Video Studio](screenshots/upload_video.png) |
+  
+  | **AI Neural Net Showcase** | **System Architecture & Pipeline** |
+  |:---:|:---:|
+  | ![Neural Net](screenshots/ai_neural_net.png) | ![Architecture](screenshots/architecture.png) |
