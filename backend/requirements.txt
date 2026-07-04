@@ -1,0 +1,7 @@
+flask
+flask-cors
+mediapipe==0.10.9
+numpy==1.26.4
+opencv-python
+pandas
+tensorflow

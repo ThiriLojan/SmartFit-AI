@@ -1,0 +1,46 @@
+# ================================
+# Node / Frontend Dependencies
+# ================================
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.local
+.env.production
+
+# ================================
+# Python / Backend Dependencies
+# ================================
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.db
+*.sqlite3
+
+# ================================
+# Temporary & Heavy Video Files & Datasets
+# ================================
+backend/temp_videos/
+backend/temp_video.mp4
+backend/dataset/raw_frames/
+*.mp4
+*.avi
+*.mov
+!dataset_samples/*.mp4
+!backend/Exercise_videos/*.mp4
+
+# ================================
+# OS & IDE Files
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
